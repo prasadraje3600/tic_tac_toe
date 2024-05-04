@@ -146,7 +146,7 @@ class _TicTacToeDashState extends State<TicTacToeDash> {
             showDialog(
               context: context,
               builder: (context) => AlertDialog(
-                  title: Text('Do you want to close?'),
+                  title: Text('Do you want to closed?'),
                   titleTextStyle:
                       TextStyle(color: Colors.redAccent, fontSize: 16),
                   actions: [
